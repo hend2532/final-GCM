@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ms-auto > a{
+    text-decoration: none;
+    margin-top: 10px;
+    color:rgb(32, 177, 170);
+    padding: 10px;
+    padding-left: 30px;
+
+}
+

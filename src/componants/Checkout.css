@@ -1,0 +1,53 @@
+.form{
+    width: 500px;
+    display:grid;
+    margin:30px;
+    margin-left: 140px;
+    padding: 10px;
+    padding-bottom: 50px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:rgb(21, 118, 129);  
+
+}
+
+label{
+    font-style:normal;
+}
+
+.input{
+    height:40px;
+     
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    box-sizing: border-box; 
+  }
+
+
+.completebutton{
+
+ 
+
+    background-color: #0999a6; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    margin: 10px;
+
+}
+
+.carddetails{
+
+    
+    display: grid;
+    margin: 20px;
+}

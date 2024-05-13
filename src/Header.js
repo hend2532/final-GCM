@@ -36,8 +36,7 @@ function Header() {
       </div>
       <div section-home>
           <h1>WELCOME TO GCM</h1>
-          <p>Global Chemical Manufacture Discover The Science of Beauty</p>
-          
+          <p>Global Chemical Manufacture Discover The Science of Beauty</p>  
       </div>
     </div>
   );

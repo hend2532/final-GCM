@@ -19,9 +19,9 @@ function NavBar() {
           <Nav className="ms-auto ">
             <Link to={'/home'}>Home</Link>
             <Link to={'/category'}>Category</Link>
-            <Nav.Link href="#link">
+            <Link to={'/checkout'}>
             <i className="fa-solid fa-cart-plus"></i>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

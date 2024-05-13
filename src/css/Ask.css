@@ -1,0 +1,17 @@
+.accordion{
+    margin: 100px;
+}
+div.accordion-item > h2 > button{
+    color:rgb(32, 177, 170);
+}
+div.accordion-item > h2 > button:focus{
+    outline: none;
+    border: 1px solid rgb(32, 177, 170);
+    background-color: rgb(32, 177, 170);
+    color:white;
+    box-shadow: none;
+}
+div.accordion-item > h2 > button::selection{
+    background-color: rgb(32, 177, 170);
+
+}

@@ -43,4 +43,5 @@
 }
 .g-4 > a > div{
     width:250px;
+    /* align-items: start; */
 }

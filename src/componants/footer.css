@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  background-color: rgba(32, 177, 170, 0.355);
+  padding: 10px 0;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 19px;
+  color: rgb(25, 144, 138);
+  font-stretch: ultra-expanded;
+  width: 100%;
+  text-indent: 10px;
+  overflow: hidden;
+  margin: -10px;
+  position: sticky;
+  bottom: -600px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  inline-size: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.aaa {
+  text-decoration: none;
+  color: inherit;
+  color: rgb(18, 105, 101);
+}
+.aaa:hover {
+  text-decoration: underline;
+  color: rgb(15, 71, 68);
+}
+
+.footer-brand {
+  flex-basis: 43%;
+  margin-right: 0px;
+}
+
+.footer-logo {
+  width: 95px;
+  margin: 0px;
+}
+
+.footer-brand p {
+  margin-block-end: 10px;
+}
+
+.footer-nav {
+  /* margin-top: 50px; */
+  /* flex-basis: 40%; */
+  display: -ms-flexbox;
+  gap: 10px;
+  /* justify-content: space-around; */
+  overflow-anchor: auto;
+  text-anchor: start;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+}
+
+.footer-nav li {
+  display: flex;
+  margin: 30px;
+}
+
+.footer-social {
+  display: block;
+  margin-inline-start: 150px;
+  padding-inline-end: 30px;
+}
+.p {
+  padding: 5px ;
+}
+.p a{
+  color: rgb(104, 85, 85);
+}
+.p a:hover{
+  color: rgb(18, 105, 101);
+}
+
+.contacts {
+  margin: 20px;
+}
+
+.footer-copyright {
+  inline-size: 100%;
+  text-align: center;
+  padding-block-start: 5px;
+  margin-top: 20px;
+  border-block-start: 1px solid rgb(18, 105, 101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* line-height: 55px;  */
+  /* margin-bottom: -10px; */
+  color: rgb(18, 105, 101);
+}

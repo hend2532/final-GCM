@@ -9,12 +9,12 @@ function Product(props) {
  
   const { product } = props; 
   return (
-    <Link to={`/product/${product.id}`}>
+    <Link to={`/product/${product._id}`}>
       <Card>
         <Card.Img src={product.image} alt="Product" />
         <Card.Body>
           <Card.Title>{product.name}</Card.Title>
-          <Card.Text>EGY {product.price.customer}:00</Card.Text>
+          <Card.Text>EGY {product.price}:00</Card.Text>
           <Button variant="primary">Add to Cart</Button>
         </Card.Body>
       </Card>

@@ -7,7 +7,7 @@
 div.g-4{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
 }
 .g-4 > a > div{
     border-radius: 25px;
@@ -18,7 +18,7 @@ div.g-4{
 
 div.g-4 >a> div > img{
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     height: 250px;
     overflow: scroll;
 }

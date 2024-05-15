@@ -9,6 +9,8 @@ import Checkout from './Checkout';
 import Feedback from './Feedback';
 import Ask from './Ask';
 import Home from './Home';
+import Login from './Login'; 
+import SignUp from './SignUp'; 
 function App(){
     return (
       <>
@@ -23,6 +25,8 @@ function App(){
             } />
             <Route path="/productList" element={<ProductList/>} />
             <Route path="/category" element={<Category/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/signup" element={<SignUp/>} />
             <Route path="/checkout" element={<Checkout/>} />
             <Route path="product/:productId" element={<ProductDetails/>} />
           </Routes>       
